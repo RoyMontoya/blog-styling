@@ -113,6 +113,36 @@ h2{
   margin-bottom: 0;
 }
 
+#subscribe-box{
+  padding: 15px 20px;
+  font-size: 15px;
+}
+
+#subscribe-box h4{
+  font-family: 'Roboto Condensed';
+  font-size: 20px;
+  color: #666;
+  text-align: justify;
+}
+
+#subscribe-box p{
+  line-height: 1.5em;
+  text-rendering: optimizeLegibility;
+}
+
+#subscribe-box .form-group{
+  margin-top: 15px;
+}
+
+#subscribe-box .btn-warning{
+  background-color: #f39c12;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+#subscribe-box .btn-warning:hover{
+  background-color: #f0ad4e;
+}
 
 
 /* Pagination */
@@ -169,6 +199,10 @@ h2{
   font-weight: 300;
 }
 
+.blog-post-meta .btn-danger:hover {
+  background-color: #d2322d;
+}
+
 .blog-main img{
   min-width: 100%;
   margin-bottom: 30px;
@@ -189,4 +223,8 @@ h2{
   text-align: center;
   background-color: #f9f9f9;
   border-top: 1px solid #e5e5e5;
+}
+
+.centered{
+  text-align: center;
 }
